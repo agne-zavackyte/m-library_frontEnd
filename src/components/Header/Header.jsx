@@ -34,7 +34,7 @@ const Header = ({ loggedIn, logOut }) => {
    )}
    {loggedIn && (
     <>
-     <Link to="/library/collection">
+     <Link to="/">
       <S.Logo src={logo} alt="Logo" />
      </Link>
      <S.Actions>
